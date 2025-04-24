@@ -1,23 +1,15 @@
-# 🐶 Random Dog Image Downloader
+# 🐶 DOGAPI - Random Dog Image Downloader
 
-This Python script fetches random dog images using the [Dog CEO's Dog API](https://dog.ceo/dog-api/) and saves them locally. Ideal for testing image handling, experimenting with APIs, or just filling your day with doggo joy.
+This is a Python script that downloads random dog images using the Dog CEO's Dog API. Great for testing, learning APIs, or just collecting cool dog pics!
 
-## 🚀 Features
-
-- Fetches and downloads a specified number of random dog images.
-- Stores images locally with incremental filenames.
-- Includes error handling for API issues or connection problems.
-- Automatically waits between requests to avoid hammering the API.
-
-## 🛠️ Requirements
+## 📦 Requirements
 
 - Python 3.x
-- `requests` library (Install via `pip install requests`)
+- `requests` library (`pip install requests`)
 
-## 📦 Installation
+## 🛠 Setup
 
-Clone the repository and navigate into the folder:
-
-```bash
-git clone https://github.com/<your-username>/dog-image-downloader.git
-cd dog-image-downloader
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/securitygeek15/DOGAPI.git
+   cd DOGAPI
